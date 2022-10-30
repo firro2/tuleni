@@ -1,0 +1,84 @@
+
+*{
+margin: 10;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+    background-color: #f0f0f0;
+}
+
+main{
+    width: 72%;
+    padding: 70px;
+    margin: auto;
+    background-color: rgb(255, 255, 255) ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    transition: all 0.5s ease;
+
+}
+.photo{
+    background-color: rgb(255, 196, 0);
+    width: 300px;
+    height: 500px;
+    margin: 5px;
+    background-position: center;
+    background-size: Auto;
+    transition: all 0.5s ease;
+
+}
+h1{
+    width: 100%;
+    text-align: center;
+    font-size: 48px;
+    transition: all 2s ease;
+}
+.photo1{
+background-image: url(backgrounds/1g.jpg);
+}
+.photo2{
+    background-image: url(backgrounds/2g.jpg);
+}
+.photo3{
+    background-image: url(backgrounds/3g.jpg);
+}
+.photo4{
+    background-image: url(backgrounds/4g.jpg);
+}
+.photo5{
+    background-image: url(backgrounds/5g.jpg);
+}
+.photo6{
+    background-image: url(backgrounds/6g.jpg);
+}
+.photo7{
+    background-image: url(backgrounds/7g.jpg);
+}
+.photo8{
+    background-image: url(backgrounds/8g.jpg);
+}
+.photo9{
+    background-image: url(backgrounds/9g.jpg);
+}
+.photo10{
+    background-image: url(backgrounds/10g.jpg);
+}
+.photo11{
+    background-image: url(backgrounds/11g.jpg);
+}
+.photo12{
+    background-image: url(backgrounds/12g.jpg);
+}
+.photo:hover{
+    transform: rotate(0deg) scale(1.1) ;
+    box-shadow: 0 0 15px 1px rgb(75, 75, 75);
+    background-color:black;
+}
+h1:hover{
+   transform: rotate(720deg);
+}
+.photo6:hover{
+    background-image:url(pict/00g.jpg) ;
+}
